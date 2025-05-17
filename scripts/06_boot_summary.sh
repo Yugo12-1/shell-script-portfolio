@@ -1,4 +1,6 @@
-#! /bin/bash
+#!/bin/bash
+
+# set -x
 
 echo "======サーバーの起動ログサマリ======="
 echo "起動時刻: $( uptime -s )"
