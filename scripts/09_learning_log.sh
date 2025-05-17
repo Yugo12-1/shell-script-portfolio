@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# set -x
+
 # ファイルの定義
 script_path=$( realpath "${0}" )
 base_dir=$( dirname "${script_path}" )
