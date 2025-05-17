@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# set -x
+
 # ファイルを標準入力から受け取る
 read -p "サイズを確認したいファイル名を入力してください: " input_file
 target_file=$( realpath "${input_file}" )
