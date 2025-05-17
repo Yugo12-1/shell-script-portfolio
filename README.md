@@ -50,12 +50,11 @@ chmod 755 script_name.sh
 
 ## 動作環境
 
-**仮想サーバー**  
-- VirtualBox 7.0.8  
-
 **OS**  
  - AlmaLinux release 9.5 (Teal Serval)
 
  **Shell**  
  - Bash 5.1.8
 
+**仮想環境**  
+- VirtualBox 7.0.8  
