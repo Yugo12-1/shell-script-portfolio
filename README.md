@@ -1,6 +1,28 @@
 # Shell Script Portfolio
 
-このリポジトリは、日常的なタスクを自動化するための10個のシェルスクリプトを収録しています。各スクリプトは、システム管理やネットワーク監視など、実務で役立つユースケースを想定しています。
+## 目的
+
+このリポジトリは、日常的なタスクを自動化するための10個のシェルスクリプトを収録しています。  
+また、システム管理、プロセス監視などの実務でも役に立つようなユースケースを想定しています。
+
+## ディレクトリ構成
+
+```
+shell-scripts-project/
+ |--- scripts/
+ |  |--- 01_extract_errors.sh
+ |  |--- 02_backup_directory.sh
+ |  |--- 03_resource_report.sh
+ |  |--- 04_bulk_rename.sh
+ |  |--- 05_delete_old_logs.sh
+ |  |--- 06_boot_summary.sh
+ |  |--- 07_check_file_size.sh
+ |  |--- 08_monitor_process.sh
+ |  |--- 09_learning_log.sh
+ |  |--- 10_check_port.sh
+ |
+ |--- README.md
+```
 
 ## スクリプト一覧
 
@@ -37,6 +59,7 @@
 ## 使用方法
 
 各スクリプトは、実行権限を付与した上で実行してください。
+※基本的には、特権ユーザー(root)での実行を想定しています。
 
 ```bash
 # スクリプトに実行権限を付与
@@ -46,6 +69,18 @@ chmod 755 script_name.sh
 
 # 実行
 ./script_name.sh
+```
+## テスト方法
+
+各スクリプトは、AlmaLinux 9.5 上で動作確認を行っています。以下のコマンドでテストを実行できます。
+
+```bash
+# 構文エラーチェック
+bash -n script_name.sh
+
+# debug
+# 以下のコメントアウトを削除する
+# set -x
 ```
 
 ## 動作環境
