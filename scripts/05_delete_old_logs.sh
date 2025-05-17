@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# set -x
+
 # 変数の定義
 default_dir="/var/log/old/"
 
