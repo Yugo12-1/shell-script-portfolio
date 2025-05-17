@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# set -x
+
 # 変数の定義
 target_dir="${1:-/etc/}"
 file_path=$( realpath "${0}" )
