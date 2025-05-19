@@ -1,4 +1,4 @@
-# Shell Script Portfolio
+# Shell Script Project
 
 ## 目的
 
